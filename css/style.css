@@ -33,7 +33,7 @@ h2.meny p.meny{
 }
 img{
     width: 100%;
-    align-self: center;
+    max-width: 480px;
 }
 footer{
     text-align: center;
