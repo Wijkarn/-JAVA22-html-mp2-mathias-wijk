@@ -12,12 +12,9 @@ h1{
 
 div.meny{
     display: flex;
-    /* border: 2px firebrick solid; */
-    justify-content: center;
     padding: 1rem;
     flex-flow: row wrap;
     justify-content: flex-start;
-    align-content: flex-start;
 }
 
 article{
@@ -35,7 +32,15 @@ img{
     width: 100%;
     max-width: 480px;
 }
+
 footer{
     text-align: center;
-    color: White;
+    height: 80px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    height: 60px;
+    z-index: 1;
 }
